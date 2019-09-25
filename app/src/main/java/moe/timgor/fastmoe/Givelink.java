@@ -51,7 +51,7 @@ public class Givelink extends Service {
                 ClipData clip = ClipData.newPlainText("moe pic", response);
                 clipboard.setPrimaryClip(clip);
 
-                Toast.makeText(ctx, "Copied!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ctx, "Copied", Toast.LENGTH_SHORT).show();
             }
         }, new Response.ErrorListener() { //Create an error listener to handle errors appropriately.
             @Override
